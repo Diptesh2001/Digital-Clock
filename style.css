@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(33, 106, 94);
+}
+
+.clock {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    height: 550px;
+    min-width: 600px;
+}
+
+.time {
+    text-align: center;
+    border: 4px solid;
+    border-radius: 12px;
+    padding: 5px 40px;
+    font-size: 100px;
+}
+
+.day {
+    display: flex;
+    font-size: 30px;
+    margin-top: 2px;
+    justify-content: space-between;
+    
+}
+
+.day span{
+    padding: 0px 10px;
+    margin: 5px 10px;
+}
+
+.mday {
+    font-size: 1.5rem;
+}
+
+.date {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2px 30px;
+    margin-bottom: 2px;
+    border: 4px solid;
+    /* border-bottom: none; */
+    border-radius: 12px;
+}
+
+.currDay {
+    background-color: rgb(38, 38, 38);
+    border-radius: 15px;
+    color: rgb(187, 186, 185);
+}
